@@ -6,12 +6,12 @@ ENV LC_ALL=C
 ENV USE_CCACHE=1
 ENV ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx120G"
 ENV JAVA_OPTS=" -Xmx120G "
-ENV BUILD_USERNAME=mobx
+ENV BUILD_USERNAME=IQ-7
 ENV CCACHE_EXEC=/usr/bin/ccache
 ENV BUILD_HOSTNAME=builder
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 ENV USER=cirrus
-ENV HOSTNAME=zacky46
+ENV HOSTNAME=IQ-7
 
 WORKDIR /tmp
 
